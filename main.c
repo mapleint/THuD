@@ -41,13 +41,11 @@ BOOL WINAPI ctrl(DWORD fdwCtrlType)
 		case CTRL_BREAK_EVENT:
 			SHORUN = 0;
 			puts("[INFO] : CTRL+[KEY] received, exiting");
-			cleanup();
 			return TRUE;
 		case CTRL_LOGOFF_EVENT:
 		case CTRL_SHUTDOWN_EVENT:
 			SHORUN = 0;
 			puts("exiting");
-			cleanup();
 			return FALSE;
 	}
 }
@@ -113,10 +111,6 @@ int main()
 				map_set(&m, exename, 1);
 			ppid = pid;
 		}
-
-		const char* key;
-		map_iter_t iter = map_iter(&m);
-		puts("\n\n\n-------------------------------\n\n\n");
 
 		cleanup();
 	} else {
