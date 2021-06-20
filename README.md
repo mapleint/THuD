@@ -7,4 +7,4 @@ ThuD:
  - has very low RAM and CPU usage
  - ~~get you a cute north korean gf~~
 
-map in C was made by [RXI](github.com/rxi), if anyone reading is an afformentioned cute north korean girl, contact him first as he is a legend amongst men. Of course, I wrote all in main.cpp, and that shows the 30 IQ I have when I wrote this eating BEANS. If you have any contributions or ports to other platforms, you may raise an issue.
+map in C was made by [rxi](https://github.com/rxi), if anyone reading is an afformentioned cute north korean girl, contact him first as he is a legend amongst men. Of course, I wrote all in main.cpp, and that shows the 30 IQ I have when I wrote this eating BEANS. If you have any contributions or ports to other platforms, you may raise an issue.
